@@ -30,6 +30,9 @@
   "pre-commit": [
     "lint"
   ],
+  "engines": {
+    "node": "15.14.0"
+  },
   "scripts": {
     "build": "atool-build",
     "lint": "eslint --ext .js,.jsx src/",
